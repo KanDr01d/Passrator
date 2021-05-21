@@ -1,2 +1,7 @@
 # passrator
-A python program that create password for you.
+A Python program that generator password (and PIN) for you.
+
+# Requirement:
+ - Python 3.x
+ - pip
+ - termcolor 
