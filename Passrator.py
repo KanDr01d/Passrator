@@ -101,7 +101,7 @@ def MenuStart():
 def LNMode():   
     global Length
     clear()
-    cprint ("Minimum: 4", 'magenta')
+    cprint ("Minimum: 4", 'blue')
     Length = input("Length: ")
     if Length.isdigit () == True:
         Length = int(Length)
@@ -146,7 +146,7 @@ def SpecialCharaters():
 def LPMode():
     global Length
     clear()
-    cprint ("Minimum: 8. Numbers is default in password generation. Special characters is an optional option.", 'magenta')
+    cprint ("Minimum: 8. Numbers is default in password generation. Special characters is an optional option.", 'blue')
     Length = input("Length: ")
     if Length.isdigit () == True:
         Length = int(Length)
