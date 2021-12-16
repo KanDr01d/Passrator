@@ -30,13 +30,13 @@ def ChSet():
     finally:
         pass
 
-#Error 1: Not vaid command
+#Error 1: Not valid input
 def ErrorNoti():
-        cprint ("Not valid command, try again", 'red')
+        cprint ("Not valid input, try again", 'red')
         sleep (1)
         clear()
 
-#Error 2: Not vaid
+#Error 2: Not valid
 def ErrorNoti2():
         cprint ("Not valid, try again", 'red')
         sleep (1)
